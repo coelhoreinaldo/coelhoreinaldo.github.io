@@ -1,0 +1,12 @@
+body{
+    background-color: #ecdcf9;
+}
+h1,h2{
+    background-color: #68C5DB; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;
+}
+p,ul{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{
+    text-align: justify ;
+}
