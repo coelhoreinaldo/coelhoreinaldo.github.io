@@ -22,11 +22,11 @@ div p{
 
 .aboutme{
     background-color: plum;
+    display: inline;
 }
 
 .whoami{
     width: 90%;
-    
 }
 
 #me{
