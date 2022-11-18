@@ -20,12 +20,18 @@ div p{
     text-align: justify;
 }
 
-div img{
-    border: 1px double #448fa3;
-    border-radius: 5%;
-    padding: 1px;
-    background-color: aliceblue;
-    float:right;
+.aboutme{
+    background-color: plum;
+}
+
+.whoami{
+    width: 70%;
+    
+}
+
+#me{
+    margin-left: 100%;
+    float: right;
 }
 
 
