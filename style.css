@@ -2,8 +2,10 @@
 body{
     background-color: #ecdcf9;
 }
+
 h1,h2{
-    background-color: #68C5DB; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;
+    background-color: #68C5DB; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;
 }
 
 #name{
@@ -15,17 +17,16 @@ p,ul{
 }
 
 div p{
-    text-align: justify ;
-    width: 75%;
+    text-align: justify;
+    float: left;
 }
 
-img{
-    border: 0.5px solid aqua;
-    padding: 5px;
-    float: right;
-    margin: left;
-    max-width: 186px;
-
+img#me{
+    border: 1px double #448fa3;
+    border-radius: 5%;
+    padding: 1px;
+    position: relative;
+    background-color: aliceblue;
 }
 
 
