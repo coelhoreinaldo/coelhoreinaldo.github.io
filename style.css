@@ -5,12 +5,29 @@ body{
 h1,h2{
     background-color: #68C5DB; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;
 }
+
+#name{
+    text-align: center;
+    border: 2px solid aqua;
+}
 p,ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p{
+
+div p{
     text-align: justify ;
+    width: 75%;
 }
+
+img{
+    border: 0.5px solid aqua;
+    padding: 5px;
+    float: right;
+    margin: left;
+    max-width: 186px;
+
+}
+
 
 /* Requisitos
 Seu Portfólio Web deve ter um layout usando Box Model com as informações a seguir:
