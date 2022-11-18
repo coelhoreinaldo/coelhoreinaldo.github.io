@@ -18,15 +18,14 @@ p,ul{
 
 div p{
     text-align: justify;
-    float: left;
 }
 
-img#me{
+div img{
     border: 1px double #448fa3;
     border-radius: 5%;
     padding: 1px;
-    position: relative;
     background-color: aliceblue;
+    float:right;
 }
 
 
