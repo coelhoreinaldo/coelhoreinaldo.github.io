@@ -1,39 +1,50 @@
 
 body{
     background-color: #ecdcf9;
+    font-family: Alexandria, sans-serif;
 }
 
 h1,h2{
-    background-color: #68C5DB; 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-style: italic;
+    background-color: #68C5DB;
+    font-weight: bold; 
+}
+
+.social-div{
+    position: absolute;
+    text-align: right;
+}
+
+.social{
+    width: 2%;
 }
 
 #name{
     text-align: center;
-    border: 2px solid aqua;
+    width: 50%;
+    margin-left: 25%;
 }
-p,ul{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+.titles-right{
+    width: 25%;
 }
 
 .aboutme{
-    background-color: plum;
     display: inline-block;
-    text-align: justify;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
 }
 
 .whoami{
-    width: 80%;
+    width: 75%;
     display: inline-block;
-    
+    text-align: center;
 }
 
 #me{
     float: right;
-    display: inline-block;
     padding-right: 60;
 }
-
 
 /* Requisitos
 Seu Portfólio Web deve ter um layout usando Box Model com as informações a seguir:
