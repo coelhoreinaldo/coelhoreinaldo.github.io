@@ -16,22 +16,22 @@ p,ul{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-div p{
+.aboutme{
+    background-color: plum;
+    display: inline-block;
     text-align: justify;
 }
 
-.aboutme{
-    background-color: plum;
-    display: inline;
-}
-
 .whoami{
-    width: 90%;
+    width: 80%;
+    display: inline-block;
+    
 }
 
 #me{
-    margin-left: 100%;
     float: right;
+    display: inline-block;
+    padding-right: 60;
 }
 
 
