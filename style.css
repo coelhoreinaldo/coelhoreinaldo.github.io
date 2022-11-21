@@ -30,28 +30,24 @@ nav a:hover{
 
 #name{
     text-align: center;
-    width: 50%;
     margin-top: 120px;
-    margin-left: 25%;
     margin-bottom: 8px;
     color: #839cb5;
 }
 
 .aboutme h2 {
-    margin-top: 120px;
     margin-bottom: 32px;
 }
 
-.titles-right{
-    width: 25%;
-}
-
 .aboutme{
+
     display: inline-block;
-    width: 50%;
-    margin-left: 25%;
+    padding-left: 500px;
+    padding-right: 500px;
     text-align: center;
+    margin-top: 64px ;
     margin-bottom: 120px;
+    background-color: rgb(228, 228, 255);
 }
 
 #trybe{
@@ -79,10 +75,11 @@ nav a:hover{
 
 .skills{
     display: flex;
-    width: 50%;
     margin: 0 auto;
-    text-align: center;
+    justify-content: center;
+    gap: 120px;
     margin-bottom: 5%;
+    text-align: center;
 }
 
 .skills ul li{
@@ -93,9 +90,6 @@ nav a:hover{
     margin-bottom: 16px;
 }
 
-.skills2{
-    margin-left: 550px;
-}
 
 
 /* Rodapé */
