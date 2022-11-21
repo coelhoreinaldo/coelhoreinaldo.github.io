@@ -6,6 +6,7 @@
 
 body{
     font-family: Alexandria, sans-serif;
+    font-weight: 100;
 }
 
 nav{
@@ -13,6 +14,7 @@ nav{
     padding: 16px;
     margin-bottom: 32px;
     text-align: right;
+    font-weight: bold;
 }
 
 nav a {
@@ -42,8 +44,7 @@ nav a:hover{
 .aboutme{
 
     display: inline-block;
-    padding-left: 500px;
-    padding-right: 500px;
+    padding: 16px 500px;
     text-align: center;
     margin-top: 64px ;
     margin-bottom: 120px;
