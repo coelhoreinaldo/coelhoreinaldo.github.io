@@ -1,38 +1,62 @@
+/* aeader */
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-    background-color: #ecdcf9;
     font-family: Alexandria, sans-serif;
 }
 
-h1,h2{
-    background-color: #68C5DB;
-    font-weight: bold; 
-}
-
-.social-div{
-    position: absolute;
+nav{
+    background-color: #686466;
+    padding: 16px;
+    margin-bottom: 32px;
     text-align: right;
 }
 
-.social{
-    width: 2%;
+nav a {
+    font-size: 20px;
+    margin: 8px;
+    text-decoration: none;
+    color: #b1e1e9;
 }
+
+nav a:hover{
+    color: #f2e4f9 ;
+}
+
+/* about me */
 
 #name{
     text-align: center;
-    width: 50%;
-    margin-left: 25%;
+    margin-top: 120px;
+    margin-bottom: 8px;
+    color: #839cb5;
 }
 
-.titles-right{
-    width: 25%;
+.aboutme h2 {
+    margin-bottom: 32px;
 }
 
 .aboutme{
+
     display: inline-block;
-    width: 50%;
-    margin-left: 25%;
+    padding-left: 500px;
+    padding-right: 500px;
     text-align: center;
+    margin-top: 64px ;
+    margin-bottom: 120px;
+    background-color: rgb(228, 228, 255);
+}
+
+#trybe{
+    text-decoration: none;
+    color: green;
+}
+
+#trybe:hover{
+    color: rgb(64, 252, 136);
 }
 
 .whoami{
@@ -42,9 +66,49 @@ h1,h2{
 }
 
 #me{
-    float: right;
     padding-right: 60;
+    margin-bottom: 32px;
 }
+
+
+/* skills */
+
+.skills{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 120px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.skills ul li{
+    list-style: none;
+}
+
+.skills-title{
+    margin-bottom: 16px;
+}
+
+
+
+/* Rodapé */
+
+
+footer{
+    background-color: #686466;
+    border: solid black 2px;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.social{
+    width: 50px;
+}
+
+
 
 /* Requisitos
 Seu Portfólio Web deve ter um layout usando Box Model com as informações a seguir:
