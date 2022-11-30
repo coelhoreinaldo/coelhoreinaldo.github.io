@@ -100,15 +100,24 @@ nav a:hover{
 /* Rodapé */
 
 
-footer{
+footer {
     background-color: #686466;
     padding: 16px 32px;
+}
+
+footer section{
     display: flex;
     justify-content: center;
     gap: 16px;
 }
 
 .social{
-    width: 50px;
+    width: 32px;
+}
+
+footer div {
+    text-align: center;
+    padding-top: 8px;
+    font-size: 14px;
 }
 
