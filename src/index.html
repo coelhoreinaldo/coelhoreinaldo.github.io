@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coelhoreinaldo - Portfólio Web</title>
+    <link href="/dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="bg-slate-200 flex flex-col min-h-screen dark:bg-slate-900">
+    <header
+      class="fixed w-full p-2 bg-gradient-to-r from-sky-700 via-sky-400 to-sky-700 flex justify-center rounded-b-lg sm:static sm:justify-start"
+    >
+      <nav class="space-x-4 p-2">
+        <a
+          href="#about"
+          class="max-w-full py-1 text-white hover:shadow hover:shadow-slate-200/50 sm:h-9"
+          >Sobre</a
+        >
+        <a
+          href="#skills"
+          class="max-w-full py-1 text-white hover:shadow hover:shadow-slate-200/50"
+          >Competências</a
+        >
+        <a
+          href="#projects"
+          class="max-w-full py-1 text-white hover:shadow hover:shadow-slate-200/50"
+          >Projetos</a
+        >
+      </nav>
+      <nav class="ml-auto pr-2">
+        <img class="moon cursor-pointer" src="./svgs/moon.svg" alt="" />
+        <img class="sun cursor-pointer" src="./svgs/sun.svg" alt="" />
+      </nav>
+    </header>
+    <main class="divide-y divide-blue-200 mt-2 dark:divide-blue-800">
+      <h1 class="text-center mt-16 sm:mb-16 sm:text-6xl dark:text-white">
+        Desenvolvedor Web - Reinaldo Coelho
+      </h1>
+
+      <section
+        id="about"
+        class="pt-2 sm:flex sm:flex-row-reverse sm:justify-center sm:pr-20 sm:pt-8"
+      >
+        <img
+          class="rounded mx-auto sm:mx-0"
+          src="./me.png"
+          alt="Uma foto minha"
+        />
+        <p
+          class="text-justify p-4 sm: font-normal sm:w-4/12 sm:self-center dark:text-white"
+        >
+          Moro em Brasília-DF, nasci em 1999 e atualmente sou formado em
+          Licenciatura em Letras pela Universidade de Brasília. Após finalizar a
+          graduação, retomei a minha meta de trabalhar com tecnologia. No
+          momento, estou em transição de carreira e sou estudante de
+          Desenvolvimento Web na escola de programação
+          <a
+            class="text-green-500 hover:text-green-400"
+            href="https://www.betrybe.com/"
+            target="_blank"
+            >Trybe</a
+          >.
+        </p>
+      </section>
+      <br />
+      <section id="skills" class="text-center">
+        <h2 class="sm:text-4xl font-medium mb-4 dark:text-white">
+          Competências
+        </h2>
+        <ul class="flex flex-column justify-center space-x-2">
+          <img
+            class="skills-imgs"
+            src="./svgs/terminal.svg"
+            alt="Ícone de terminal"
+          />
+          <img class="skills-imgs" src="./svgs/git.svg" alt="Ícone de git" />
+          <img
+            class="skills-imgs"
+            src="./svgs/github.svg"
+            alt="Ícone de GitHub"
+          />
+          <img
+            class="skills-imgs"
+            src="./svgs/html5.svg"
+            alt="Ícone de html5"
+          />
+          <img class="skills-imgs" src="./svgs/css.svg" alt="Ícone de CSS" />
+          <img
+            class="skills-imgs"
+            src="./svgs/js.svg"
+            alt="Ícone de JavaScript"
+          />
+        </ul>
+      </section>
+      <br />
+      <section id="projects" class="text-center">
+        <h2 class="sm:text-4xl font-medium mb-4 dark:text-white">Projetos</h2>
+        <ul
+          class="projects flex flex-row flex-wrap sm:flex-column space-x-4 justify-center"
+        >
+          <li class="project dark:text-white">
+            <a
+              href="https://coelhoreinaldo.github.io/pixels-art/"
+              target="_blank"
+            >
+              <img
+                class="projects-imgs"
+                src="./projects/pixelsart.png"
+                alt="Projeto arte com pixels"
+              />
+            </a>
+            <div class="project-desc">
+              <p>HTML &#9830; CSS &#9830; JavaScript</p>
+              <p>DOM &#9830; Local Storage &#9830; Eventos</p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <br />
+    <footer
+      class="bg-gradient-to-r from-sky-700 via-sky-400 to-sky-700 mt-auto mb-0 p-2 bg-sky-400"
+    >
+      <p class="text-center text-white py-1 px-1">
+        Todos os direitos reservados a Reinaldo Coelho de Souza, 2022
+      </p>
+      <div class="flex space-x-4 justify-center">
+        <a href="https://www.linkedin.com/in/coelhoreinaldo/" target="_blank"
+          ><img
+            class="social-media"
+            src="./svgs/linkedin.svg"
+            alt="Ícone do Linkedin"
+        /></a>
+        <a href="https://github.com/coelhoreinaldo" target="_blank"
+          ><img
+            class="social-media"
+            src="./svgs/square-github.svg"
+            alt="Ícone do GitHub"
+        /></a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
