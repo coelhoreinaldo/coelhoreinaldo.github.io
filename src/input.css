@@ -24,11 +24,7 @@ section, footer {
 }
 
 .skills-imgs{
-  @apply w-7;
-}
-
-.skills-imgs {
-  @apply sm:w-12;
+  @apply w-7 h-7 sm:w-12 sm:h-12;
 }
 
 .social-media {
