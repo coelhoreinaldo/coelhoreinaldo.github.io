@@ -647,6 +647,18 @@ video {
   --tw-gradient-to: #0369a1;
 }
 
+.fill-white {
+  fill: #fff;
+}
+
+.fill-black {
+  fill: #000;
+}
+
+.stroke-1 {
+  stroke-width: 1;
+}
+
 .p-2 {
   padding: 0.5rem;
 }
@@ -762,6 +774,26 @@ section, footer {
   border-color: rgb(30 58 138 / var(--tw-border-opacity));
 }
 
+.hover\:fill-blue-300:hover {
+  fill: #93c5fd;
+}
+
+.hover\:fill-blue-900:hover {
+  fill: #1e3a8a;
+}
+
+.hover\:fill-orange-400:hover {
+  fill: #fb923c;
+}
+
+.hover\:fill-orange-500:hover {
+  fill: #f97316;
+}
+
+.hover\:fill-blue-600:hover {
+  fill: #2563eb;
+}
+
 .hover\:text-green-400:hover {
   --tw-text-opacity: 1;
   color: rgb(74 222 128 / var(--tw-text-opacity));
@@ -853,4 +885,3 @@ section, footer {
     line-height: 2.5rem;
   }
 }
-
