@@ -713,6 +713,7 @@ h2 {
 h3 {
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 700;
 }
 
 section, footer {
@@ -748,9 +749,14 @@ section, footer {
   border-color: rgb(147 197 253 / var(--tw-border-opacity));
 }
 
+.dark .projects-imgs {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 58 138 / var(--tw-border-opacity));
+}
+
 .projects li {
   margin-top: 1rem;
-  height: 13rem;
+  height: 14rem;
   width: 20rem;
   border-width: 2px;
   --tw-border-opacity: 1;
@@ -846,10 +852,6 @@ section, footer {
     width: 33.333333%;
   }
 
-  .sm\:w-8\/12 {
-    width: 66.666667%;
-  }
-
   .sm\:w-7\/12 {
     width: 58.333333%;
   }
@@ -888,3 +890,4 @@ section, footer {
     line-height: 2.5rem;
   }
 }
+

@@ -3,15 +3,13 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-2xl;
-  @apply font-bold;
+  @apply text-2xl font-bold;
 }
 h2 {
-  @apply text-xl;
-  @apply font-bold;
+  @apply text-xl font-bold;
 }
 h3 {
-  @apply text-lg;
+  @apply text-lg font-bold;
 }
 
 section, footer {
@@ -38,11 +36,11 @@ section, footer {
 }
 
 .projects-imgs {
-  @apply border-b-2;
-  @apply border-blue-300
+  @apply border-b-2 border-blue-300 dark:border-blue-900;
 
 }
 
 .projects li {
-  @apply w-80 h-52 border-2 border-blue-300 dark:border-blue-900 mt-4 sm:mx-2; 
+  @apply w-80 h-56 border-2 border-blue-300 dark:border-blue-900 mt-4 sm:mx-2; 
 }
+
