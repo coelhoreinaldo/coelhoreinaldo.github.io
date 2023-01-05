@@ -4,6 +4,6 @@ Meu portfólio pessoal onde reuno algumas informações sobre meu trabalho como 
 
 Acesse [aqui](https://coelhoreinaldo.github.io/).
 
-# ⚛️ Ferramentas
+## ⚛️ Ferramentas
 
 O portfólio foi construído utilizando HTML, CSS e Javascript. Utilizei também o Framework CSS Tailwind.
